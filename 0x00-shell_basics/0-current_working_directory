@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(cd "$(alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory "$1")"; pwd -P)
+echo "$(realpath "$(alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory)")"
