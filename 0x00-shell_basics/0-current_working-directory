@@ -1,0 +1,3 @@
+#!/bin/bash
+# creating my first script
+echo "pwd"
